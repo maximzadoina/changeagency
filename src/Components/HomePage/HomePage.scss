@@ -1,0 +1,762 @@
+.mob {
+  height: auto;
+  width: 250%;
+  margin-top: 35%;
+  margin-left: -50vw;
+}
+
+.flasBlur {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  margin-top: -70%;
+  margin-left: -69%;
+  animation: circle1 30s linear infinite;
+}
+
+.flashBlur2 {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  animation: circle2 35s linear infinite;
+
+}
+
+.flashBlur3 {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  margin-top: -110%;
+  margin-left: 25%;
+  animation: circle3 25s linear infinite;
+
+}
+
+.melody1 {
+  position: absolute;
+  height: auto;
+  width: 9%;
+  margin-top: -100%;
+  margin-left: -42%;
+  animation: circle4 50s linear infinite;
+
+}
+
+.melody2 {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  margin-left: -25%;
+  margin-top: -34%;
+  transform: rotate(60deg);
+  animation: circle5 40s linear infinite;
+
+}
+
+.cut {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-top: -72%;
+  margin-left: -31%;
+  animation: circle6 35s linear infinite;
+
+}
+
+.rocketHome {
+  position: absolute;
+  height: auto;
+  margin-top: -100%;
+  margin-left: -28%;
+  width: 28%;
+  animation: circle7 25s linear infinite;
+
+}
+
+.flamingoBlur {
+  position: absolute;
+  height: auto;
+  width: 55%;
+  margin-left: -8%;
+  margin-top: -57%;
+  animation: circle8 30s linear infinite;
+
+}
+
+.flashFixe {
+  position: absolute;
+  height: auto;
+  width: 20%;
+  margin-top: -130%;
+  margin-left: -5%;
+  animation: circle9 20s linear infinite;
+
+}
+
+.flamingo {
+  position: absolute;
+  height: auto;
+  margin-top: -128%;
+  margin-left: -42%;
+  width: 100%;
+  animation: circle10 45s linear infinite;
+
+}
+
+.sphere {
+  position: absolute;
+  height: auto;
+  width: 15%;
+  margin-top: -25%;
+  margin-left: 50%;
+  animation: circle11 30s linear infinite;
+
+}
+
+.msgHome {
+  position: absolute;
+  height: auto;
+  width: 22%;
+  margin-top: -65%;
+  margin-left: 32%;
+  animation: circle12 55s linear infinite;
+
+
+}
+
+@keyframes circle1 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle2 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle3 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle4 {
+  from {
+    transform:
+      rotate(360deg) translate(-25px) rotate(-360deg)
+  }
+
+  to {
+    transform:
+      rotate(0deg) translate(-25px) rotate(0deg)
+  }
+}
+@keyframes circle5 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle6 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle7 {
+  from {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+
+  to {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+}
+@keyframes circle8 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle9 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle10 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes circle11 {
+  from {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+
+  to {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+}
+@keyframes circle12 {
+  from {
+    transform:
+      rotate(0deg) translate(-30px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-30px) rotate(-360deg)
+  }
+}
+
+.alignLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.loadingLogo {
+  display: absolute;
+  height: auto;
+  margin-left: -50%;
+  margin-top: -50%;
+  width: 100%;
+}
+
+.hideImgLoadingLogo {
+  display: none;
+}
+
+.loader {
+  width: 20em;
+  height: 20em;
+  font-size: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40vh;
+}
+
+.loader .face {
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  animation: animate 1.5s linear infinite;
+}
+
+.loader .face:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  margin-left: -50%;
+  margin-top: -50%;
+  color: #004cff;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: 0.2em 0.2em 0em 0em;
+  --deg: -45deg;
+  animation-direction: normal;
+}
+
+.loader .face:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  color: #004cff;
+  border-color: currentColor currentColor transparent transparent;
+  border-width: 0.2em 0em 0em 0.2em;
+  --deg: -135deg;
+  animation-direction: reverse;
+}
+
+.loader .face .circle {
+  position: absolute;
+  width: 50%;
+  height: 0.1em;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  transform: rotate(var(--deg));
+  transform-origin: left;
+}
+
+.loader .face .circle::before {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  content: "";
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: 0 0 2em, 0 0 4em, 0 0 6em, 0 0 8em, 0 0 10em,
+    0 0 0 0.5em rgba(255, 255, 0, 0.1);
+}
+
+@keyframes animate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
+.showHideHomeTxtBr2 {
+  display: none;
+}
+
+.container-fluid#bgcCol {
+  background: rgb(250, 250, 250);
+  min-height: 100%;
+}
+
+@-webkit-keyframes slide-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+
+.hamb {
+  position: fixed;
+  z-index: 1;
+  margin-top: 2%;
+}
+
+@font-face {
+  font-family: "wowLateral";
+  src: url(../../Res/Fonts/Gilroy-Medium.ttf);
+}
+
+.wow {
+  font-family: wowLateral;
+  writing-mode: tb-rl;
+  text-align: center;
+  font-size: 80%;
+}
+
+.homeTxt {
+  font-size: 6.5vw;
+  text-align: left;
+  line-height: 110%;
+  margin-left: 8%;
+  margin-top: -25%;
+}
+
+.homeTxt2 {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.homeTxt3 {
+  font-size: 3.1vw;
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 4.5%;
+}
+
+
+.slideInArrow {
+  margin-left: 42vw;
+  margin-top: -12.5%;
+  position: absolute;
+}
+
+.boxCHANGE {
+  border: 1px solid black;
+  display: inline-block;
+  width: 100%;
+}
+
+.btn-toolset {
+  display: inline-block;
+  margin-left: 8%;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  margin-top: 8%;
+  text-decoration: none;
+  font-family: homeTxt5;
+  font-size: 3vw;
+  background-color: rgb(0, 23, 230);
+  border-radius: 2px;
+  border: 1px solid blue;
+  outline: none;
+  padding: 10px;
+  padding-left: 18px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.btn-toolset:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  outline: none;
+}
+
+.btn-toolset:active {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  outline: none;
+  text-shadow: 2px 2px 10px blue;
+  border: 1px solid black;
+}
+
+.btn-toolset:focus {
+  outline: none;
+}
+
+.contactMail {
+  text-align: center;
+  font-family: homeTxt2;
+  margin-top: 5%;
+  margin-left: 0%;
+  padding-bottom: 20%;
+  font-size: 70%;
+}
+
+.contactNumber {
+  font-size: 70%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: homeTxt2;
+}
+
+.chevron {
+  position: absolute;
+  width: 25px;
+  height: 1.25px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: rgba(0, 68, 255, 0.712);
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+.bounce-in-left {
+  -webkit-animation: bounce-in-left 1.5s 1s both;
+  animation: bounce-in-left 1.5s 1s both;
+}
+
+.showLoader {
+  z-index: -1;
+  position: relative;
+  height: 100vh;
+}
+
+.slide-in-top {
+  -webkit-animation: slide-in-top 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both;
+  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both;
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .sphere path {
+    stroke-width: 1.4px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .homeTxt {
+    font-size: 4vw;
+    width: 60%;
+    text-align: left;
+    line-height: 110%;
+    margin-left: 8%;
+    margin-top: 0;
+  }
+
+  .homeTxt3 {
+    font-size: 2vw;
+  }
+
+  .slideInArrow {
+    margin-left: 24vw;
+  }
+
+  .btn-toolset {
+    margin-top: 3vh;
+    font-size: 1.8vw;
+  }
+
+
+
+  .contactMail {
+    margin-top: 10%;
+    margin-left: -144vw;
+    padding-bottom: 10%;
+  }
+
+  .contactNumber {
+    margin-top: -14%;
+    margin-left: 70vw;
+    width: 15vw;
+  }
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+  .container-fluid#bgcCol {
+    height: 100vh;
+  }
+
+  .wowBox {
+    margin-left: 3.5vw;
+  }
+
+  .showHideHomeTxtBr2 {
+    display: block;
+  }
+
+  .showHideHomeTxtBr {
+    display: none;
+  }
+
+  .homeTxt {
+    font-size: 2.7vw;
+    width: 80%;
+    letter-spacing: 1px;
+    line-height: 110%;
+    margin-left: 0%;
+    margin-top: 55%;
+  }
+
+  .alignContentHomeIMG {
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
+
+  .homeTxt3 {
+    font-size: 1.1vw;
+    margin-left: 0;
+  }
+
+  .slideInArrow {
+    margin-left: 12vw;
+    margin-top: -13%;
+  }
+
+  .btn-toolset {
+    margin-top: 3vh;
+    font-size: 0.9vw;
+    margin-left: 0;
+    margin-top: 10%;
+    padding-left: 1.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .btn-toolset:hover {
+    border: 0.9px solid blue;
+    color: blue;
+    background-color: white;
+  }
+
+  .btn-toolset:active {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+  }
+
+  .contactMail {
+    margin-top: 15%;
+    margin-left: 15vw;
+    padding-bottom: 0%;
+  }
+
+  .contactNumber {
+    margin-top: 15%;
+    margin-left: 10vw;
+    width: 8vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  .slideInArrow {
+    margin-left: 12vw;
+  }
+}
+
+@media (min-width: 1900px) {
+  .slideInArrow {
+    margin-left: 11.75vw;
+    margin-top: -12%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .slideInArrow {
+    margin-left: 11.5vw;
+  }
+}

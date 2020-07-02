@@ -1,0 +1,26 @@
+.theBlogTitle{
+    font-size:7vw;
+    margin-top:10%;
+    margin-left:12vw;
+}
+
+.theBlogSubtitle{
+    font-size:3vw;
+    letter-spacing: 2px;
+    margin-left:12vw;
+}
+
+
+.articlesList{
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+-webkit-overflow-scrolling: touch;
+&::-webkit-scrollbar {
+  display: none;
+}
+padding-right:15%;
+padding-bottom:25%;
+margin-top:10%;
+
+}

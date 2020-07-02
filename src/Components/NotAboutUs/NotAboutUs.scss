@@ -1,0 +1,267 @@
+.cardHover {
+  pointer-events: none;
+  transform: translateZ(0);
+  background: white;
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: flex;
+  position: relative;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -50px;
+  }
+
+  .cardHover-content {
+    margin: auto;
+    text-align: center;
+    transform-style: preserve-3d;
+  }
+
+}
+
+.bust {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top:10%;
+}
+
+.glasses {
+  position: absolute;
+  width: 35%;
+  margin-left: 32%;
+  height: auto;
+  margin-top: 43%;
+  z-index: 2;
+}
+
+.flashAboutUs1{
+  position:absolute;
+  height:auto;
+  width:17%;
+  margin-left:-42%;
+  margin-top:13%;
+  animation:effect1 0.8s ease infinite;
+  animation-direction: alternate;
+}
+.flashAboutUs2{
+  position:absolute;
+  height:auto;
+  width:17%;
+  margin-left:-95%;
+  margin-top:50%;
+  transform:rotate(-110deg);
+  animation:effect2 0.8s ease infinite;
+  animation-direction: alternate;
+}
+.flashAboutUs3{
+  position:absolute;
+  height:auto;
+  width:17%;
+  margin-top:80%;
+  transform:rotate(90deg);
+  margin-left:-25%;
+  animation:effect3 0.8s ease infinite;
+  animation-direction: alternate;
+}
+
+@keyframes effect1{
+  from{
+    transform: rotate(-30deg) translateY(-30px) translateX(15px)
+  }
+  
+}
+@keyframes effect2{
+  from{
+    transform: rotate(-70deg) translateY(-30px) translateX(15px)
+  }
+}
+@keyframes effect3{
+  from{
+    transform: rotate(35deg) translateY(-30px) translateX(15px)
+  }
+}
+
+.blurPoint1{
+  position:absolute;
+  height:auto;
+  width:30%;
+  margin-left:-95%;
+  margin-top:10%;
+  animation:blurEffect1 20s linear infinite;
+}
+.blurPoint2{
+  position:absolute;
+  height:auto;
+  width:30%;
+  margin-top:90%;
+  margin-left:-90%;
+  animation:blurEffect2 20s linear infinite;
+
+}
+.blurPoint3{
+  position:absolute;
+  height:auto;
+  width:30%;
+  margin-top:40%;
+  margin-left:-35%;
+  animation:blurEffect3 20s linear infinite;
+}
+@keyframes blurEffect1 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes blurEffect2 {
+  from {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+
+  to {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+}
+@keyframes blurEffect3 {
+  from {
+    transform:
+      rotate(360deg) translate(-20px) rotate(-360deg)
+  }
+
+  to {
+    transform:
+      rotate(0deg) translate(-20px) rotate(0deg)
+  }
+}
+
+.notAboutUs {
+  font-size: 9vw;
+  margin-top: 3vh;
+  padding-top:6%;
+}
+
+.notAboutUs2 {
+  font-size: 3vw;
+  letter-spacing: 1px;
+}
+
+.notAboutUs3 {
+  font-size: 3.8vw;
+  margin-top: 5%;
+  line-height: 18px;
+  padding-bottom: 25%;
+}
+
+@media (min-width: 768px) {
+  .aboutUsImg {
+    width: 35vw;
+    height: auto;
+    margin-left: -7vw;
+    z-index: 1;
+    padding-bottom: 30%;
+    padding-top: 30%;
+  }
+
+  .aboutUsWave {
+    width: 50vw;
+    margin-top: 14%;
+    margin-left: -15vw;
+  }
+
+  .notAboutUs {
+    font-size: 4.5vw;
+    margin-top: 25%;
+    line-height: 15px;
+    margin-left: 3vw;
+    padding-top:0;
+  }
+
+  .notAboutUs2 {
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    margin-top: 1vh;
+    margin-left: 3vw;
+  }
+
+  .notAboutUs3 {
+    font-size: 1.5vw;
+    width: 100%;
+    margin-top: 5%;
+    line-height: 16px;
+    margin-left: 3vw;
+    padding-bottom:15%;
+  }
+}
+
+@media (min-width: 992px) {
+  .notAboutUs {
+    font-size: 3vw;
+    margin-top: 20%;
+    line-height: 30px;
+    margin-left: 3vw;
+  }
+
+  .notAboutUs2 {
+    font-size: 0.8vw;
+    letter-spacing: 3px;
+  }
+
+  .notAboutUs3 {
+    font-size: 1.2vw;
+    width: 70%;
+    margin-top: 5%;
+    line-height: 20px;
+    margin-left: 3vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  .notAboutUs {
+    font-size: 3.2vw;
+    line-height: default;
+  }
+
+  .notAboutUs2 {
+    line-height: 35px;
+  }
+
+  .notAboutUs3 {
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .notAboutUs2 {
+    line-height: 35px;
+  }
+
+  .notAboutUs3 {
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .notAboutUs2 {
+    line-height: 300%;
+  }
+
+  .notAboutUs3 {
+    line-height: 100%;
+  }
+}

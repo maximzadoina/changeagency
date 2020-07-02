@@ -1,0 +1,46 @@
+.articleBox{
+    padding-left:7%;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    display:inline-block;
+    }
+.articleImg{
+    height:auto;
+    width:80vw;
+    border-radius:8px;
+}
+
+.requiredTime{
+    color:white;
+    font-size:2.3vw;
+    margin-top:15%;
+    margin-left:10%;
+}
+
+.articleDate{
+    margin-top:-58%;
+    margin-left:10%;
+    color:white;
+    font-size:2.25vw;
+}
+
+div .articleTitle{
+    color:white;
+    margin-left:10%;
+    word-wrap: break-word;
+    word-break: break-all;   
+    white-space: initial;
+    width:75%;
+    line-height:100%;
+    font-size:125%;
+    margin-top:3%;
+}
+
+.readArticle{
+    color:white;
+    margin-left:10%;
+    margin-top:4%;
+    font-size:80%;
+}
