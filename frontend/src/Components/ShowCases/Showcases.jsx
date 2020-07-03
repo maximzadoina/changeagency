@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Showcase from "./Showcase/Showcase";
 import "./Showcases.scss";
 import axios from "axios";
-axios.defaults.baseURL="http://127.0.0.1:5000/"
 export class Showcases extends Component {
   constructor(props) {
     super(props);
